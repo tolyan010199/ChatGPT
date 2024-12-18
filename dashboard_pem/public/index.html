@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дашборд</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Производственный процесс</h1>
+    <div id="info">
+        <p>Дата: <span id="current-date"></span></p>
+        <p>Погода в Москве: <span id="temperature">Загрузка...</span></p>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Название</th>
+                <th>План</th>
+                <th>Выполнено</th>
+                <th>Остаток</th>
+                <th>Статус</th>
+            </tr>
+        </thead>
+        <tbody id="tasks-table">
+            <!-- Данные будут добавлены через JS -->
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
